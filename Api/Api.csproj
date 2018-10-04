@@ -24,6 +24,8 @@
     <Folder Include="Common\Application\Assembler\" />
     <Folder Include="Customers\Application\Dto\" />
     <Folder Include="Customers\Controllers\" />
+    <Folder Include="Proyectos\Controllers\" />
+    <Folder Include="Proyectos\Infrastructure\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
@@ -35,6 +37,7 @@
     <PackageReference Include="FluentMigrator.Runner.MySql" Version="3.1.3" />
     <PackageReference Include="FluentNHibernate" Version="2.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
     <PackageReference Include="MySql.Data" Version="8.0.12" />
     <PackageReference Include="NHibernate" Version="5.1.3" />
   </ItemGroup>
